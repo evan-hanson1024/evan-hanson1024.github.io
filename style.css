@@ -2,7 +2,7 @@
     margin: 0 auto;
 }
 body {
-    width: 900px;
+    width: 90%;
     background-color: #CCCCCC;
 }
 p {
@@ -23,9 +23,9 @@ ul {
 a:unvisited {
     color: #06c9c3;
 }
-a:visited {
+/*a:visited {
     color: #06c93d;
-}
+}*/
 a:hover {
     color: #dd00ff;
 }
@@ -50,3 +50,25 @@ a:hover {
 .clearleft {
     clear: left;
 }
+
+/* [MAIN-SIDEBAR] */
+/*#page-wrap {
+    background: #FFDCDC;
+  }*/
+  #page-wrap::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #page-main, #page-sidebar {
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #page-main {
+    width: 70%;
+  }
+  #page-sidebar {
+    background: #ff99ff;
+    width: 30%;
+  }
