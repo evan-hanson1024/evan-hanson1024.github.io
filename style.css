@@ -1,0 +1,52 @@
+* {
+    margin: 0 auto;
+}
+body {
+    width: 900px;
+    background-color: #CCCCCC;
+}
+p {
+    color: #064791;
+    font-family: Arial, Helvetica;
+    font-size: 1rem;
+    overflow:hidden;
+}
+h1 {
+    color: #0011ff;
+    font-family: New Rocker, Courier;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ul {
+    overflow:hidden;
+}
+a:unvisited {
+    color: #06c9c3;
+}
+a:visited {
+    color: #06c93d;
+}
+a:hover {
+    color: #dd00ff;
+}
+.boldred {
+    color: #ff0000;
+    font-weight: bold;
+}
+.redborder {
+    border: 2px solid #ff0000;
+}
+.floatright {
+    float: right;
+    width: 200px;
+}
+.floatleft {
+    float: left;
+    width: 200px;
+}
+.clearright {
+    clear: right;
+}
+.clearleft {
+    clear: left;
+}
