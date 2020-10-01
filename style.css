@@ -66,9 +66,15 @@ a:hover {
     box-sizing: border-box;
   }
   #page-main {
-    width: 70%;
+    width: 80%;
   }
   #page-sidebar {
     background: #ff99ff;
-    width: 30%;
+    width: 20%;
+  }
+  .picture-container {
+      width: 40%;
+  }
+  .text-container {
+      width: 60%
   }
