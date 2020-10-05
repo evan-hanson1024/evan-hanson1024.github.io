@@ -75,3 +75,14 @@ a:hover {
   .text-container {
       width: 60%
   }
+
+  
+  @media screen and (max-width: 480px) {
+    #page-main {
+        width: 70%;
+    }
+    #page-sidebar {
+        background: #ff99ff;
+        width: 30%;
+    }
+  }
